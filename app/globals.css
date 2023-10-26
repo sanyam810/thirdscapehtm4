@@ -94,6 +94,19 @@
     text-fill-color: transparent; /* Make the text color transparent */
 }
 
+.button-color {
+  color: transparent; /* Make the text transparent */
+  background-image: 
+      radial-gradient(at 0% 45%, rgb(128, 38, 192) 0, transparent 50%),
+      radial-gradient(at 50% 30.6%, rgb(106, 34, 183) 0, transparent 50%),
+      radial-gradient(at 0% 100.6%, rgb(247, 247, 247) 0, transparent 100%),
+      radial-gradient(at 100% 0%, rgb(27, 149, 214) 0, transparent 90%),
+      radial-gradient(at 70% 80%, rgb(18, 161, 238) 0, transparent 80%);
+  /* background-clip: text; Clip the background to the text */
+  /* -webkit-background-clip: text; For compatibility with some browsers */
+  /* text-fill-color: transparent; Make the text color transparent */
+}
+
   .nav-color {
     background-color:#0f0e13;
     background-image: 
