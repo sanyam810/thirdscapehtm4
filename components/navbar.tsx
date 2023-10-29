@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="flex flex-row justify-start gap-4 p-4 bg-zinc-900 text-white">
             <div className="flex fkex-row gap-4">
                 <div className="pt-2">
-                    ScapeDive
+                    ThirdScape
                 </div>
                 <div className="flex flex-row gap-2">
                     <div>

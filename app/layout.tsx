@@ -10,7 +10,7 @@ const activeChainId = ChainId.Mumbai;
 const inter = Inter({ subsets: ['latin'] })
 
 const metadata: Metadata = {
-  title: 'ScapeDive',
+  title: 'ThirdScape',
   description: 'Find the best 3d assets for your project',
 }
 
