@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button"
+import { ConnectWallet } from "@thirdweb-dev/react/evm";
 
 const Navbar = () => {
     return(
@@ -17,11 +18,11 @@ const Navbar = () => {
                         <Button variant="ghost">About</Button>
                     </div>
                 </div>
-                
             </div>
-            <div className="ml-auto">
-                <Button variant="ghost">Connet Wallet</Button>
+            <div className="ml-auto flex gap-4">
+                <ConnectWallet/>
             </div>
+            
         
         </div>
     )
